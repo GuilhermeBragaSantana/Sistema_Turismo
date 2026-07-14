@@ -1,0 +1,100 @@
+<div style="font-family:var(--font-sans);">
+<h2 class="sr-only">Layout completo do site: menu, seção institucional, destinos e rodapé</h2>
+
+<nav style="display:flex;align-items:center;justify-content:space-between;padding:20px 40px;background:#fff;border-bottom:0.5px solid var(--border);">
+  <div style="font-family:var(--font-voice);font-weight:500;font-size:20px;color:#04342C;">Nome da empresa</div>
+  <div style="display:flex;gap:28px;font-size:14px;color:#2C2C2A;">
+    <span style="font-weight:500;">Início</span><span>Sobre</span><span>Destinos</span><span>Contato</span>
+  </div>
+  <div style="display:flex;gap:12px;color:#04342C;font-size:16px;">
+    <i class="ti ti-brand-linkedin" aria-hidden="true"></i>
+    <i class="ti ti-brand-instagram" aria-hidden="true"></i>
+  </div>
+</nav>
+
+<div style="background:#04342C;color:#fff;padding:70px 40px;text-align:center;">
+  <div style="display:flex;gap:6px;justify-content:center;margin-bottom:20px;">
+    <div style="width:2px;height:32px;background:#F0997B;"></div>
+    <div style="width:2px;height:22px;background:#F0997B;margin-top:10px;"></div>
+    <div style="width:2px;height:40px;background:#F0997B;"></div>
+  </div>
+  <h1 style="font-family:var(--font-voice);font-size:32px;font-weight:500;margin:0 0 12px;">Slogan da empresa entra aqui</h1>
+  <p style="font-size:14px;color:#9FE1CB;margin:0;">Frase de efeito aguardando conteúdo do cliente.</p>
+</div>
+
+<div style="background:#F9F6F1;padding:50px 40px;">
+  <div style="display:flex;gap:14px;justify-content:center;margin-bottom:32px;" id="tabs2"></div>
+  <div id="content2" style="max-width:820px;margin:0 auto;"></div>
+</div>
+
+<footer style="background:#04342C;color:#fff;padding:48px 40px 24px;">
+  <div style="display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px;margin-bottom:32px;">
+    <div>
+      <div style="font-family:var(--font-voice);font-size:18px;font-weight:500;margin-bottom:10px;">Nome da empresa</div>
+      <p style="font-size:13px;color:#9FE1CB;line-height:1.6;max-width:260px;">Conectando você aos destinos mais especiais do litoral baiano.</p>
+    </div>
+    <div>
+      <div style="font-size:13px;font-weight:500;color:#F0997B;margin-bottom:10px;">Navegação</div>
+      <div style="font-size:13px;color:#C9E8DC;line-height:2.1;">Início<br>Sobre<br>Destinos<br>Contato</div>
+    </div>
+    <div>
+      <div style="font-size:13px;font-weight:500;color:#F0997B;margin-bottom:10px;">Destinos</div>
+      <div style="font-size:13px;color:#C9E8DC;line-height:2.1;">Itacaré<br>Morro de São Paulo<br>Barra Grande</div>
+    </div>
+    <div>
+      <div style="font-size:13px;font-weight:500;color:#F0997B;margin-bottom:10px;">Contato</div>
+      <div style="font-size:13px;color:#C9E8DC;line-height:2.1;"><i class="ti ti-mail" style="font-size:13px;margin-right:6px;" aria-hidden="true"></i>email@empresa.com<br><i class="ti ti-phone" style="font-size:13px;margin-right:6px;" aria-hidden="true"></i>(73) 0000-0000</div>
+    </div>
+  </div>
+  <div style="border-top:0.5px solid rgba(255,255,255,0.15);padding-top:18px;display:flex;justify-content:space-between;font-size:12px;color:#7FB3A0;">
+    <span>© 2026 Nome da empresa. Todos os direitos reservados.</span>
+    <div style="display:flex;gap:14px;">
+      <i class="ti ti-brand-linkedin" aria-hidden="true"></i>
+      <i class="ti ti-brand-instagram" aria-hidden="true"></i>
+    </div>
+  </div>
+</footer>
+</div>
+
+<script>
+const data2 = {
+itacare: { name:"Itacaré", desc:"Entre a mata atlântica e o mar, Itacaré esconde praias que só se chega de trilha, cachoeiras de água transparente e um pôr do sol que para o tempo.",
+  photos:[{icon:"ti-sunset-2",color:"#0F6E56",fg:"#fff"},{icon:"ti-palm-tree",color:"#9FE1CB",fg:"#04342C"},{icon:"ti-droplet",color:"#5DCAA5",fg:"#04342C"},{icon:"ti-mountain",color:"#1D9E75",fg:"#fff"},{icon:"ti-beach",color:"#F5C4B3",fg:"#4A1B0C"},{icon:"ti-tree",color:"#F0997B",fg:"#4A1B0C"}]},
+morro: { name:"Morro de São Paulo", desc:"Sem carros, sem pressa. As praias numeradas vão ficando mais desertas conforme você caminha, até sobrar só você e o som do mar.",
+  photos:[{icon:"ti-anchor",color:"#F5C4B3",fg:"#4A1B0C"},{icon:"ti-beach",color:"#F0997B",fg:"#4A1B0C"},{icon:"ti-sunset-2",color:"#D85A30",fg:"#fff"},{icon:"ti-sailboat",color:"#9FE1CB",fg:"#04342C"},{icon:"ti-stairs",color:"#5DCAA5",fg:"#04342C"},{icon:"ti-swimming",color:"#1D9E75",fg:"#fff"}]},
+barra: { name:"Barra Grande", desc:"Vento forte, dunas gigantes e piscinas naturais que aparecem na maré baixa. O cenário dos cartões-postais sem as multidões.",
+  photos:[{icon:"ti-wind",color:"#B5D4F4",fg:"#042C53"},{icon:"ti-kite",color:"#85B7EB",fg:"#042C53"},{icon:"ti-beach",color:"#378ADD",fg:"#fff"},{icon:"ti-mountain",color:"#F5C4B3",fg:"#4A1B0C"},{icon:"ti-droplet",color:"#9FE1CB",fg:"#04342C"},{icon:"ti-sunset-2",color:"#185FA5",fg:"#fff"}]}
+};
+let cur2 = "itacare";
+function renderTabs2(){
+  const t = document.getElementById("tabs2"); t.innerHTML = "";
+  Object.keys(data2).forEach(k=>{
+    const b = document.createElement("button");
+    b.textContent = data2[k].name;
+    b.style.cssText = "padding:10px 22px;border-radius:6px;border:1px solid " + (k===cur2?"#D85A30":"#B4B2A9") + ";background:" + (k===cur2?"#D85A30":"transparent") + ";color:" + (k===cur2?"#fff":"#2C2C2A") + ";font-size:14px;font-weight:500;cursor:pointer;";
+    b.onclick = () => { cur2 = k; renderTabs2(); renderContent2(); };
+    t.appendChild(b);
+  });
+}
+function renderContent2(){
+  const d = data2[cur2]; const el = document.getElementById("content2"); el.innerHTML = "";
+  const title = document.createElement("h3");
+  title.textContent = d.name;
+  title.style.cssText = "font-family:var(--font-voice);font-size:22px;font-weight:500;color:#04342C;margin:0 0 12px;text-align:center;";
+  el.appendChild(title);
+  const desc = document.createElement("p");
+  desc.textContent = d.desc;
+  desc.style.cssText = "font-size:13px;line-height:1.7;color:#5F5E5A;margin:0 auto 24px;max-width:600px;text-align:center;";
+  el.appendChild(desc);
+  const grid = document.createElement("div");
+  grid.style.cssText = "display:grid;grid-template-columns:repeat(3,1fr);gap:10px;";
+  d.photos.forEach(p=>{
+    const c = document.createElement("div");
+    c.style.cssText = "background:"+p.color+";border-radius:10px;height:100px;display:flex;align-items:center;justify-content:center;";
+    c.innerHTML = '<i class="ti '+p.icon+'" style="font-size:30px;color:'+p.fg+';" aria-hidden="true"></i>';
+    grid.appendChild(c);
+  });
+  el.appendChild(grid);
+}
+renderTabs2(); renderContent2();
+</script>
