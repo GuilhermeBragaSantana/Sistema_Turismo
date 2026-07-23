@@ -1,0 +1,41 @@
+:root {
+  /* Cores base */
+  --cor-fundo-claro: #F9F6F1;       /* fundo geral das seções claras */
+  --cor-fundo-escuro: #04342C;      /* verde-petróleo, hero e footer */
+
+  /* Cores de texto */
+  --texto-principal: #2C2C2A;
+  --texto-secundario: #5F5E5A;
+  --texto-suave: #888780;           /* usado em textos de história/itálico */
+  --texto-claro-footer: #C9E8DC;
+  --texto-apagado-footer: #7FB3A0;
+
+  /* Acentos tropicais (coral/âmbar) */
+  --acento-principal: #D85A30;      /* botões ativos, CTAs */
+  --acento-claro: #F0997B;          /* detalhes, linhas decorativas */
+  --acento-suave: #F5C4B3;          /* fundos de cards/fotos */
+
+  /* Verdes de apoio (tons intermediários) */
+  --verde-100: #9FE1CB;
+  --verde-200: #5DCAA5;
+  --verde-300: #1D9E75;
+  --verde-400: #0F6E56;
+
+  /* Bordas e neutros */
+  --borda-neutra: #B4B2A9;
+
+  /* Azuis (usados como acento específico de Barra Grande) */
+  --azul-100: #B5D4F4;
+  --azul-200: #85B7EB;
+  --azul-300: #378ADD;
+  --azul-400: #185FA5;
+  --azul-escuro: #042C53;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}

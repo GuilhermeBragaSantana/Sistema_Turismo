@@ -3,77 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/nav.css">
+
+    <link rel="stylesheet" href="css/hero.css">
+    
+    <script src="js/nav.js" defer></script>
     <title>Document</title>
+
 </head>
 <body>
-    <menu>
-        <section class="iconCompanyName">
+    <header>
+        <div class="iconCompanyName">
             <p>Trippo</p>
-        </section>
-        <nav>
-            <ul>
+        </div>
+        <button class="menuButton">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </button>
+        <nav class="menuNavigation">
+            <ul class="menuNavigation-ul">
                 <li>Início</li>
+                <button class="destinationMenu">
                 <li>Destinos</li>
+                <div class="destinationMenu-span">
+                <span class="destinationMenu-first-span"></span>
+                <span class="destinationMenu-last-span"></span>
+                </div>
+                </button>
+                <ul class="destination">
+                        <li>Itacaré</li>
+                        <li>Morro de São Paulo</li>
+                        <li>Barra Grande</li>
+                </ul>
                 <li>Contato</li>
             </ul>
+            <div class="socialNetworks">
+                <img src="img/instagram.svg" alt="Nosso instagram">
+                <img src="img/facebook.svg" alt="Nosso facebook">
+            </div>
         </nav>
-        <section class="socialNeworks">
-            <img src="img/instagram.svg" alt="Nosso instagram">
-            <img src="img/facebook.svg" alt="Nosso facebook">
-        </section>
-    </menu>
+    </header>
 
     <main>
-        <section class="companySlogan">
-            <p>Slogan da empresa entra aqui</p>
-            <p>Fra de efeito</p>
-        </section>
+        <div class="companySlogan">
+            <div class="companySlogan-span">
+                <span class="companySlogan-span-first"></span>
+                <span class="companySlogan-span-middler"></span>
+                <span class="companySlogan-span-last"></span>
+            </div>
+            <h1>Slogan da empresa entra aqui</h1>
+            <p>Frase de efeito aguardando conteúdo do cliente</p>
+        </div>
 
-        <nav>
-            <ul>
-                <li>Itacaré</li>
-                <li>Morro de São Paulo</li>
-                <li>Barra Grande</li>
-            </ul>
-        </nav>
-
-        <section class="destinations">
+        <div class="destinations">
             <div id="tabsDestinations"></div>
             <div id="contentDestinations"></div>
-        </section>
+        </div>
     </main>
 
     <footer>
         <section class="upfooter">
-            <section class="firstFooter">
+            <div class="firstFooter">
                 <p>Nome da empresa</p>
                 <p>Conectando você aos destinos mais especiais do litoral baiano</p>
-            </section>
-            <section class="secondFooter">
+            </div>
+            <div class="secondFooter">
                 <p>Navegação</p>
                 <ul>
                     <li>Início</li>
                     <li>Destinos</li>
                     <li>Contato</li>
                 </ul>
-            </section>
-            <section class="thirdFooter">
+            </div>
+            <div class="thirdFooter">
                 <p>Destinos</p>
                 <ul>
                     <li>Itacaré</li>
                     <li>Morro de São Paulo</li>
                     <li>Barra Grande</li>
                 </ul>
-            </section>
-            <section class="lastFooter">
+            </div>
+            <div class="lastFooter">
                 <p>Contato</p>
                 <ul>
                     <li>email@empresa.com</li>
                     <li>(73) 9000-0000</li>
                 </ul>
-            </section>
+            </div>
         </section>
-        <section class="downFooter"></section>
+        <div class="downFooter"></div>
     </footer>
 </body>
 </html>
