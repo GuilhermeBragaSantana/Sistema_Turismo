@@ -1,0 +1,76 @@
+.destinationsContainer{
+    background-color:var(--cor-fundo-claro);
+    width: 100vw;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destinations{
+    margin-top: 2rem;
+    display: flex;
+    gap: .5rem;
+
+}
+
+#destinations-itacare{
+    background-color: var(--acento-principal);
+    color: var(--cor-fundo-claro);
+}
+
+.destinations button{
+    background-color: transparent;
+    padding: .5rem 1rem;
+    border: .1rem solid var(--borda-neutra);
+    border-radius: .5rem;
+}
+
+.destinyInfo{
+    margin-top: 1.5rem;
+}
+
+.nameDestiny{
+    font-size: 1.3rem;
+    color: var(--texto-principal);
+    text-align: center;
+}
+
+.historyDestiny{
+    margin-top: .5rem;
+    font-size: 1rem;
+    color: var(--texto-secundario);
+    text-align: center;
+    width: 30rem;
+}
+
+.imgDestiny{
+    margin-top: 1.5rem;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+}
+
+.imgDestiny img{
+    width: 100%;
+    height: 7rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.imgDestiny-first{
+    background-color: var(--verde-400);
+}
+
+.imgDestiny-second{
+    background-color: var(--verde-100);
+}
+
+.imgDestiny-third{
+    background-color: var(--verde-200);
+}
+
+.imgDestiny-fourth{
+    background-color: var(--verde-300);
+}

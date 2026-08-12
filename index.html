@@ -8,8 +8,14 @@
     <link rel="stylesheet" href="css/nav.css">
 
     <link rel="stylesheet" href="css/hero.css">
+
+    <link rel="stylesheet" href="css/destination.css">
+
+    <link rel="stylesheet" href="css/footer.css">
     
     <script src="js/nav.js" defer></script>
+    <script type="module" src="js/destinos.js" defer></script>
+
     <title>Document</title>
 
 </head>
@@ -57,15 +63,29 @@
             <h1>Slogan da empresa entra aqui</h1>
             <p>Frase de efeito aguardando conteúdo do cliente</p>
         </div>
+        
+        <div class="destinationsContainer">
+            <div class="destinations" >
+                <button id="destinations-itacare" destinationData="itacare" class="destinationButton">Itacaré</button>
+                <button id="destinations-morro" destinationData="morro" class="destinationButton">Morro de São Paulo</button>
+                <button id="destinations-barra" destinationData="barra" class="destinationButton">Barra Grande</button>
+            </div>
 
-        <div class="destinations">
-            <div id="tabsDestinations"></div>
-            <div id="contentDestinations"></div>
+            <div class="destinyInfo">
+                <p class="nameDestiny" id="nameDestiny"> Nome do destino</p>
+                <p class="historyDestiny" id="historyDestiny"> Historia da cidade</p>
+            </div>
+            <div class="imgDestiny">
+                <img src="" alt="" class="imgDestiny-first" id="imgDestiny-first">
+                <img src="" alt="" class="imgDestiny-second" id="imgDestiny-second">
+                <img src="" alt="" class="imgDestiny-third" id="imgDestiny-third">
+                <img src="" alt="" class="imgDestiny-fourth" id="imgDestiny-fourth">
+            </div>
         </div>
     </main>
 
     <footer>
-        <section class="upfooter">
+        <section class="upFooter">
             <div class="firstFooter">
                 <p>Nome da empresa</p>
                 <p>Conectando você aos destinos mais especiais do litoral baiano</p>
@@ -94,7 +114,9 @@
                 </ul>
             </div>
         </section>
-        <div class="downFooter"></div>
+        <div class="downFooter"> 
+            <p>© 2026 Trippo. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
