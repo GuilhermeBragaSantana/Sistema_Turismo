@@ -1,0 +1,23 @@
+.aboutUsContainer {
+    background-color: var(--cor-fundo-claro);
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutUsContainer p:first-child {
+ margin-top: 2.5rem;
+ color: var(--acento-principal);
+ font-size: 1.5rem;
+ font-weight: 600;
+}
+
+.aboutUsContainer p:last-child {
+    margin: 2rem auto;
+    width: 95%;
+    align-items: center;
+    color: var(--texto-principal);
+    font-size: 1rem;
+}
+
