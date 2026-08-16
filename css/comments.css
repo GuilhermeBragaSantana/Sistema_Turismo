@@ -1,11 +1,12 @@
 .commentsContainer{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 95vw;
 }
 
-.commentsContainer p:first-child{
+.commentsContainer p{
     text-align: center;
     margin-top: 2.5rem;
     color: var(--acento-principal);
@@ -13,3 +14,85 @@
     font-weight: 600;
 
 }
+
+/*Next and previous buttons for the comments carousel*/
+
+.next, .previous{
+    position: absolute;
+    background-color: var(--acento-principal);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50% auto;
+    z-index: 1;
+}
+
+.next span, .previous span{
+    color: var(--branco);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+.next{
+    right: 1rem;
+}
+
+.previous{
+    left: 1rem;
+}
+
+
+/*Comment section background */
+.backgroundComments{
+    display: flex;
+    gap: .5rem;
+    height: 20rem;
+    position: relative;
+}
+
+.firstComment, .secondComment, .thirdComment{
+    margin-top: 2rem;
+    background-color: var(--branco);
+    width: 15rem;
+    height: 10rem;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.comments{
+    margin: 1rem;
+}
+
+.userInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.userInfo div{
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.fotoUser{
+    background-color: var(--cinza-claro);
+    position: sticky;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+.commentUser{
+    font-size: 0.8rem;
+    color: var(--texto-secundario);
+}
+
+
+

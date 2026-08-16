@@ -1,9 +1,12 @@
 .aboutUsContainer {
+    margin: 2rem auto;
     background-color: var(--cor-fundo-claro);
     height: 20rem;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
 }
 
 .aboutUsContainer p:first-child {
@@ -13,11 +16,8 @@
  font-weight: 600;
 }
 
-.aboutUsContainer p:last-child {
-    margin: 2rem auto;
-    width: 95%;
-    align-items: center;
-    color: var(--texto-principal);
+.aboutUsContainer p:nth-child(2) {
+    color: var(--texto-secundario);
     font-size: 1rem;
 }
 

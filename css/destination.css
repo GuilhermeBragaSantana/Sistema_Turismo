@@ -20,10 +20,6 @@
 
 }
 
-#destinations-itacare{
-    background-color: var(--acento-principal);
-    color: var(--cor-fundo-claro);
-}
 
 .destinations button{
     background-color: transparent;
@@ -43,11 +39,11 @@
 }
 
 .historyDestiny{
-    margin-top: .5rem;
+    margin: .5rem auto;
     font-size: 1rem;
     color: var(--texto-secundario);
     text-align: center;
-    width: 30rem;
+    width: 95%;
 }
 
 .imgDestiny{
@@ -79,4 +75,9 @@
 
 .imgDestiny-fourth{
     background-color: var(--verde-300);
+}
+
+.destinationButton.active{
+    background-color: var(--acento-principal);
+    color: var(--branco);
 }

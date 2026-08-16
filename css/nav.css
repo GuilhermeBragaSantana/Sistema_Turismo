@@ -3,11 +3,12 @@ header{
     top: 0;
     left: 0;
     background-color: var(--cor-fundo-claro);
-    width: 100%;
+    width: 100vw;
     height: 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
 }
 
 
@@ -67,7 +68,7 @@ header{
     top: 3rem;
     z-index: 10000;
     width: 50%;
-    height: 100vh;
+    height: 100rem;
     display: flex;
     flex-direction: column;
     gap: 5rem;
@@ -75,6 +76,7 @@ header{
     background-color: var(--cor-fundo-claro);
     transform: translateX(150%);
     transition: 0.5s ease-in-out;
+    z-index: 20;
 }
 
 .menuNavigation.active{
