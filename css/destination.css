@@ -47,7 +47,7 @@
 }
 
 .imgDestiny{
-    margin-top: 1.5rem;
+    margin: 1.5rem auto;
     width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -55,23 +55,65 @@
 }
 
 .imgDestiny div{
+    position: relative;
     width: 100%;
     height: 7rem;
-    object-fit: cover;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    
 }
 
 
 
-.firstPhotoDestination img, .secondPhotoDestination img, .thirdPhotoDestination img, .fourthPhotoDestination img{
-    width: 30%; 
+.firstPhotoDestination,
+.secondPhotoDestination,
+.thirdPhotoDestination,
+.fourthPhotoDestination {
+    width: 30%;
+    border-radius: 1rem;
 }
 
 
 .destinationButton.active{
     background-color: var(--acento-principal);
     color: var(--branco);
+}
+
+.photoDestination.active{
+    position: absolute;
+    width: 95%;
+    height: 25rem;
+    z-index: 2;
+}
+
+
+.photoDestination.active .backgroundSpanPhotoDestination span{
+    display: block;
+}
+
+.backgroundSpanPhotoDestination{
+    bottom: 6rem;
+    left: 10rem;
+    position: absolute;
+    width: 1rem;
+}
+
+.backgroundSpanPhotoDestination span{
+    width: 2rem;
+    height: .5rem;
+    border-radius: 5px;
+    background-color: var(--preto);
+    position: absolute;
+    display: none;
+}
+
+.backgroundSpanPhotoDestination span:first-child{
+    transform:  rotate(45deg);
+}
+
+.backgroundSpanPhotoDestination span:last-child{
+    transform:rotate(315deg);
 }

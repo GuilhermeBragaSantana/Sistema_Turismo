@@ -14,30 +14,30 @@ main{
     gap: 1rem;
 }
 
-.companySlogan-span{
+.companySloganSpan{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: .5rem;
 }
 
-.companySlogan-span span{
+.companySloganSpan span{
     background-color: var(--acento-claro);
 }
 
-.companySlogan-span-first{
+.firstSpanCompanySlogan{
     width: .2rem;
     height: 2rem;
     border-radius: 1rem;
 }
 
-.companySlogan-span-middler{
+.middleSpanCompanySlogan{
     width: .2rem;
     height: 1rem;
     border-radius: 1rem;
 }
 
-.companySlogan-span-last{
+.lastSpanCompanySlogan{
      width: .2rem;
     height: 2.5rem;
     border-radius: 1rem;

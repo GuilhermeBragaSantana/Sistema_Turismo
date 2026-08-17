@@ -90,15 +90,15 @@ header{
     transform: translateX(0);
 }
 
-.menuNavigation-ul{
+.navigationMenuList{
     margin-top: 1rem;
 }
 
-.menuNavigation-ul li{
+.navigationMenuList li{
  padding: 1rem 0 1rem 1rem;
 }
 
-.menuNavigation-ul button{
+.navigationMenuList button{
     background-color: var(--cor-fundo-claro);
     border: none;
 
@@ -112,7 +112,7 @@ header{
     cursor: pointer;
 }
 
-.destinationMenu-span{
+.destinationMenuSpan{
     position: relative;
     display: flex;
     justify-content: center;
@@ -123,10 +123,10 @@ header{
     transition: 0.2s;
 }
 
-.destinationMenu-span.active{
+.destinationMenuSpan.active{
     transform: rotate(0deg);
 }
-.destinationMenu-span span{
+.destinationMenuSpan span{
     position: absolute;
     display: inline-block;
     width: .1rem;
@@ -138,12 +138,12 @@ header{
 }
 
 
-.destinationMenu-first-span{
+.firstSpanDestinationMenu{
     transform-origin: top;
     transform: translate(-50%, -50%) rotate(40deg);
 }
 
-.destinationMenu-last-span{
+.lastSpanDestinationMenu{
     transform-origin: top;
     transform: translate(-50%, -50%) rotate(-40deg);
 }

@@ -19,8 +19,9 @@
     
     <script src="js/nav.js" defer></script>
     <script type="module" src="js/destinos.js" defer></script>
+    <script src="js/lightbox.js" defer></script>
 
-    <title>K & R aĝencia de viagens</title>
+    <title>K&R aĝencia de viagens</title>
     <link rel="shortcut icon" href="img/Icon.webp" type="image/x-icon">
 
 </head>
@@ -36,13 +37,13 @@
             <span class="bottom"></span>
         </button>
         <nav class="menuNavigation">
-            <ul class="menuNavigation-ul">
+            <ul class="navigationMenuList">
                 <li>Início</li>
                 <button class="destinationMenu">
                 <li>Destinos</li>
-                <div class="destinationMenu-span">
-                <span class="destinationMenu-first-span"></span>
-                <span class="destinationMenu-last-span"></span>
+                <div class="destinationMenuSpan">
+                <span class="firstSpanDestinationMenu"></span>
+                <span class="lastSpanDestinationMenu"></span>
                 </div>
                 </button>
                 <ul class="destination">
@@ -54,18 +55,18 @@
                 <li>Contato</li>
             </ul>
             <div class="socialNetworks">
-                <img src="img/instagram.svg" alt="Nosso instagram">
-                <img src="img/facebook.svg" alt="Nosso facebook">
+                <img src="img/svg/instagram.svg" alt="Nosso instagram">
+                <img src="img/svg/facebook.svg" alt="Nosso facebook">
             </div>
         </nav>
     </header>
 
     <main>
         <div class="companySlogan">
-            <div class="companySlogan-span">
-                <span class="companySlogan-span-first"></span>
-                <span class="companySlogan-span-middler"></span>
-                <span class="companySlogan-span-last"></span>
+            <div class="companySloganSpan">
+                <span class="firstSpanCompanySlogan"></span>
+                <span class="middleSpanCompanySlogan"></span>
+                <span class="lastSpanCompanySlogan"></span>
             </div>
             <h1>K&R: Bahia selecionada, para quem quer o extraordinário.</h1>
             <p>Esqueça o roteiro padrão: desenhamos cada detalhe da sua viagem para transformar a Bahia na sua melhor memória extraordinária.</p>
@@ -80,9 +81,9 @@
         <div class="destinationsContainer">
             <p class="destinationsTitle">Destinos</p>
             <div class="destinations" >
-                <button id="destinationsItacare" data-destination="itacare" class="destinationButton active">Itacaré</button>
-                <button id="destinations-morro" data-destination="morroDeSaoPaulo" class="destinationButton">Morro de São Paulo</button>
-                <button id="destinations-barra" data-destination="barraGrande" class="destinationButton">Barra Grande</button>
+                <button id="itacareDestination" data-destination="itacare" class="destinationButton active">Itacaré</button>
+                <button id="morroDeSaoPauloDestination" data-destination="morroDeSaoPaulo" class="destinationButton">Morro de São Paulo</button>
+                <button id="barraGrandeDestination" data-destination="barraGrande" class="destinationButton">Barra Grande</button>
             </div>
 
             <div class="destinyInfo">
@@ -90,17 +91,33 @@
                 <p class="historyDestiny" id="historyDestiny">Historia da cidade</p>
             </div>
             <div class="imgDestiny">
-                <div class="firstPhotoDestination">
-                    <img id="firstPhotoDestination">
+                <div class="backgroundFirstPhotoDestination photoDestination ">
+                    <div class="backgroundSpanPhotoDestination">
+                        <span class="spanPhotoDestination"></span>
+                        <span class="spanPhotoDestination"></span>
+                    </div>
+                    <img class="firstPhotoDestination" id="firstPhotoDestination" >
                 </div>
-                <div class="secondPhotoDestination">
-                    <img alt="" class="imgDestiny-second" id="secondPhotoDestination">
+                <div class="backgroundsecondPhotoDestination photoDestination">
+                    <div class="backgroundSpanPhotoDestination">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <img class="secondPhotoDestination" id="secondPhotoDestination">
                 </div>
-                <div class="thirdPhotoDestination">
-                    <img alt="" class="imgDestiny-third" id="thirdPhotoDestination">
+                <div class="backgroundthirdPhotoDestination photoDestination">
+                    <div class="backgroundSpanPhotoDestination">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <img class="thirdPhotoDestination" id="thirdPhotoDestination">
                 </div>
-                <div class="fourthPhotoDestination">
-                    <img alt="" class="imgDestiny-fourth" id="fourthPhotoDestination">
+                <div class="backgroundfourthPhotoDestination photoDestination">
+                    <div class="backgroundSpanPhotoDestination">
+                    <span></span>
+                    <span></span>
+                    </div>
+                    <img class="fourthPhotoDestination" id="fourthPhotoDestination">
                 </div>
             </div>
         </div>
@@ -118,7 +135,7 @@
                     <div class="comments">
                         <div class="userInfo">
                             <div>
-                                <div class="fotoUser"></div>
+                                <div class="photoUser"></div>
                                 <span class="nameUser">Nome do usuário</span>
                             </div>
                             <span class="startUser">*****</span>
@@ -130,7 +147,7 @@
                     <div class="comments">
                         <div class="userInfo">
                             <div>
-                                <div class="fotoUser"></div>
+                                <div class="photoUser"></div>
                                 <span class="nameUser">Nome do usuário</span>
                             </div>
                             <span class="startUser">*****</span>
@@ -142,7 +159,7 @@
                     <div class="comments">
                         <div class="userInfo">
                             <div>
-                                <div class="fotoUser"></div>
+                                <div class="photoUser"></div>
                                 <span class="nameUser">Nome do usuário</span>
                             </div>
                             <span class="startUser">*****</span>
