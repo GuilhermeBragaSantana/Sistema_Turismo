@@ -53,4 +53,18 @@ main{
     text-align: center;
 }
 
+.contactUsButton{
+    margin: 2rem auto;
+    padding: .8rem;
+    border-radius: .5rem;
+    background-color: var(--acento-principal);
+    color: var(--branco);
+    border: none;
+    cursor: pointer;
+}
+
+.contactUsButton:hover{
+    background-color: var(--acento-principal-escuro);
+}
+
 

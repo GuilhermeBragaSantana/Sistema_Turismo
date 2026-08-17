@@ -14,8 +14,14 @@ header{
 
 .iconCompanyName{
     margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
+.icon{
+    width: 2.5rem;
+}
 
 .menuButton{
     margin-right: 1rem;
@@ -28,6 +34,7 @@ header{
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .menuButton span{
@@ -102,6 +109,7 @@ header{
     align-items: center;
     gap: 1rem;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .destinationMenu-span{

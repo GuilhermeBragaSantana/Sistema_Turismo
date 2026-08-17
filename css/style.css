@@ -12,6 +12,7 @@
 
   /* Acentos tropicais (coral/âmbar) */
   --acento-principal: #D85A30;      /* botões ativos, CTAs */
+  --acento-principal-escuro: #a94523;  /* Para o hover no style */
   --acento-claro: #F0997B;          /* detalhes, linhas decorativas */
   --acento-suave: #F5C4B3;          /* fundos de cards/fotos */
 

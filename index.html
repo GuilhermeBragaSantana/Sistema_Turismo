@@ -20,13 +20,15 @@
     <script src="js/nav.js" defer></script>
     <script type="module" src="js/destinos.js" defer></script>
 
-    <title>Document</title>
+    <title>K & R aĝencia de viagens</title>
+    <link rel="shortcut icon" href="img/Icon.webp" type="image/x-icon">
 
 </head>
 <body>
     <header>
         <div class="iconCompanyName">
-            <p>Trippo</p>
+            <img src="img/Icon.webp" class="icon">
+            <p>K&R aĝencia de viagens</p>
         </div>
         <button class="menuButton">
             <span class="top"></span>
@@ -48,6 +50,7 @@
                         <li>Morro de São Paulo</li>
                         <li>Barra Grande</li>
                 </ul>
+                <li>Exterior</li>
                 <li>Contato</li>
             </ul>
             <div class="socialNetworks">
@@ -64,13 +67,14 @@
                 <span class="companySlogan-span-middler"></span>
                 <span class="companySlogan-span-last"></span>
             </div>
-            <h1>Slogan da empresa entra aqui</h1>
-            <p>Frase de efeito aguardando conteúdo do cliente</p>
+            <h1>K&R: Bahia selecionada, para quem quer o extraordinário.</h1>
+            <p>Esqueça o roteiro padrão: desenhamos cada detalhe da sua viagem para transformar a Bahia na sua melhor memória extraordinária.</p>
+            <button class="contactUsButton">Quero viver essa experiência</button>
         </div>
 
         <div class="aboutUsContainer">
             <p>Sobre nós</p>
-            <p>A Trippo é uma agência especializada em roteiros personalizados pelo litoral sul da Bahia, unindo Itacaré, Morro de São Paulo e Barra Grande em experiências sob medida. Combinamos conhecimento local e curadoria cuidadosa para transformar cada viagem em algo autêntico, tranquilo e memorável — sem roteiros genéricos, só o essencial de cada destino.</p>
+            <p>A K&R Viagens nasceu para romper com os pacotes turísticos engessados. Criada por quem é apaixonado pelas riquezas da Bahia, a agência surgiu com um propósito claro: levar o viajante muito além dos cartões-postais óbvios e conectá-lo à verdadeira essência do estado.</p>
         </div>
         
         <div class="destinationsContainer">
@@ -82,14 +86,22 @@
             </div>
 
             <div class="destinyInfo">
-                <p class="nameDestiny" id="nameDestiny"> Itacaré</p>
-                <p class="historyDestiny" id="historyDestiny">Itacaré é um município no litoral sul da Bahia, famoso pelas praias de surf, trilhas na Mata Atlântica e cachoeiras próximas. Tem um clima jovem e rústico-chique, com pousadas charmosas e boa gastronomia.</p>
+                <p class="nameDestiny" id="nameDestiny"> Cidade</p>
+                <p class="historyDestiny" id="historyDestiny">Historia da cidade</p>
             </div>
             <div class="imgDestiny">
-                <img src="" alt="" class="imgDestiny-first" id="imgDestiny-first">
-                <img src="" alt="" class="imgDestiny-second" id="imgDestiny-second">
-                <img src="" alt="" class="imgDestiny-third" id="imgDestiny-third">
-                <img src="" alt="" class="imgDestiny-fourth" id="imgDestiny-fourth">
+                <div class="firstPhotoDestination">
+                    <img id="firstPhotoDestination">
+                </div>
+                <div class="secondPhotoDestination">
+                    <img alt="" class="imgDestiny-second" id="secondPhotoDestination">
+                </div>
+                <div class="thirdPhotoDestination">
+                    <img alt="" class="imgDestiny-third" id="thirdPhotoDestination">
+                </div>
+                <div class="fourthPhotoDestination">
+                    <img alt="" class="imgDestiny-fourth" id="fourthPhotoDestination">
+                </div>
             </div>
         </div>
 
@@ -139,6 +151,7 @@
                     </div>
             </div>
         </div>
+        <button class="contactUsButton">Quero viver essa experiência</button>
     </main>
 
     <footer>
